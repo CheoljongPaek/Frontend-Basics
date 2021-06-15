@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS & Libraries Code Splitting</title>
+    <link rel="stylesheet" href="./dist/main.css">
+  </head>
+  <body>
+    <header>
+      <h3>CSS Code Splitting</h3>
+    </header>
+    <div>
+      <!-- The result of webpack shows the <p> innertext to blue color -->
+      <p>
+        This text should be colored with blue after injecting CSS bundle
+      </p>
+    </div>
+    <!-- load the result of webpack -->
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
